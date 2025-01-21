@@ -9,8 +9,11 @@ Es un proyecto que aun le falta hacerles mejora es funcional en todo lo que tien
 	especialista > doctor 1234
 ----------------------------------
 -- CONTIENE ---
-
-PACIENTE.
+*
+*
+*
+-
+*PACIENTE.
 	Crear pacientes.
 	lista de pacientes.
 	Editar pacientes.
@@ -18,7 +21,7 @@ PACIENTE.
 	Exportar Pacientes.
 
 
-CITAS
+*CITAS
 	Crear citas.
 	Lista de citas.
 	Editar Citas.
@@ -26,20 +29,20 @@ CITAS
 	Exportar listado de citas.
 
 
-Especialista
+*Especialista
 	Crear Especialista
 	Lista Especialista
 	Editar Especialista
 	Eliminar Especialista.
 
 
-REPORTE
+*REPORTE
 	se puede filtra desde-hasta las citas de los especialista agregado en el sistema.
 	Exportar en CSV
 	Expostar en PDF
 
 
-CONFIGURACION. (opcion admin)	
+*CONFIGURACION. (opcion admin)	
 
 -BACKUP DB
 	PARA CREAR UN BACKUP DE LA BASE DE DATOS SQL. 	
