@@ -1,7 +1,81 @@
-Este backup se agrego:
 
--dashboard de grafico por cita.
--una seccion configuracion para hacer respaldo de la base de dato.
+
+Este proyecto tiene la funcion de crear paciente, citas, especialista para agendar citas odontoogica.
+Cuenta con usuario para interacturar en la plataforma. con permisos de roles.
+	
+	usuario prueba
+
+	admin > admin 1234
+	recepcionista > Carlos 1234
+	especialista > doctor 1234
+
+
+----------------------------------------------------------
+
+PACIENTE.
+	Crear pacientes.
+	lista de pacientes.
+	Editar pacientes.
+	Eliminar Pacientes.
+	Exportar Pacientes.
+
+
+CITAS
+	Crear citas.
+	Lista de citas.
+	Editar Citas.
+	Eliminar Citas.
+	Exportar listado de citas.
+
+
+Especialista
+	Crear Especialista
+	Lista Especialista
+	Editar Especialista
+	Eliminar Especialista.
+
+
+REPORTE
+	se puede filtra desde-hasta las citas de los especialista agregado en el sistema.
+	Exportar en CSV
+	Expostar en PDF
+
+
+CONFIGURACION. (opcion admin)	
+
+-BACKUP DB
+	PARA CREAR UN BACKUP DE LA BASE DE DATOS SQL. 	
+
+-AUDITORIA
+	Una pequeña session donde se registra las acciones de los usuarios. 	
+
+-CREAR ROLES
+	donde podemos agregar un usuario del sistema si seran admin, recesionista, especialista. 	
+
+-CAMBIAR CONTRASANA
+	Una sesion donde podemos cambiarle la contrasena a los usuarios registrado en el sistema,. 
+
+-MANTENIMIENTO DE USUARIO
+	una sesion donde puede inactivar o eliminar usuario del sistema.
+
+
+
+*CUENTA CON LA SESION PERFIL DE PACIENTE. 
+	LLAMADA PERFIL DE PACIENTE DONDE ELIGES EL PACIENTE Y SALE TODA LA INFORMACION, CITAS  Y SUBIR DOCUMENTO DE ESE PACIENTE. (IMAGEN, TEXTO, DOCUEMNTO PDF, ETC)
+
+*CUENTA CON LA SESION DE PERFIL DE ESPECIALISTA.
+	 DONDE TAMBIEN MUESTRA TODA LA CITAS Y SU INFORMACION. CON UN PEQUENO CHART.
+
+*UNA PEQUE;A GRAFICA DE LA CITAS POR DIAS.
+
+*NOTIFICACION
+	EN LA PAGINA PRINCIPAL TENEMOS UN CINTILLO DONDE MUESTRA LAS CITAS PROGRAMADA EN EL DIA. CON EL ESPECIALISTA ASIGNADO, CUENTA CON
+	UN PEQUENO SONIDO CUANDO SE AGREGA O ACTUALIZA SE ESCUCHA.
+
+Y OTRAS FUNCIONES MAS.
+
+
+TIEMPOS DE CAMBIOS.
 
 
 30-11-2024
@@ -27,7 +101,7 @@ añadimos
 	usuario prueba
 
 	admin > admin 1234
-	recepcionista > usuario1 0123
+	recepcionista > Carlos 1234
 	especialista > doctor 1234
 
 
@@ -65,3 +139,4 @@ hora de incio y  salida. y se le hizo modificacion a la lista_especialista.php y
 
 Se ha modificado la pagina registrar_cita.php para que pueda tener la funcion nueva de lo especialista, cuando eliges un especialista te muestra
 su tanda y horario. tambien fue modificada lista_cita.php y editar_cita.php por el cambio registrado ya mencionado.
+
