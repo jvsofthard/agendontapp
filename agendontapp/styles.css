@@ -1,0 +1,337 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Fondo claro */
+    color: #212529; /* Texto oscuro */
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Navbar */
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important; /* Amarillo al pasar el cursor */
+}
+
+/* Containers */
+.container {
+    margin-top: 2rem;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #495057;
+}
+
+/* Buttons */
+.btn {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* Estilo para h1 con clase text-center */
+h1.text-center {
+    font-size: 2.5em; /* Tamaño del texto */
+    color: #007BFF; /* Color principal */
+    text-align: center; /* Centrado del texto */
+    margin: 35px 0; /* Espaciado superior e inferior */
+    font-weight: bold; /* Negrita */
+    letter-spacing: 1px; /* Espaciado entre letras */
+    text-transform: uppercase; /* Mayúsculas */
+    border-bottom: 3px solid #ddd; /* Línea debajo */
+    padding-bottom: 10px; /* Espaciado debajo del texto */
+    font-family: 'Arial', sans-serif; /* Familia de fuente */
+    background: linear-gradient(90deg, #007BFF 30%, #0056b3 90%); /* Degradado en el fondo */
+    -webkit-background-clip: text; /* Solo aplica el degradado al texto */
+    -webkit-text-fill-color: transparent; /* Hace el texto transparente para mostrar el degradado */
+}
+
+
+
+.boton{
+    color: #007bff;
+    text-decoration: none;
+    font-size: 12px;
+    position: relative;
+    bottom: 25px;
+}
+
+
+
+
+.logout-card{
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    width: 10em;
+    padding-right: $padding-5;
+    padding-left: $padding-5;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.logout-card a{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.logout{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+
+.mb-4{
+   margin-bottom: 1.5rem !important;
+    display: contents; 
+}
+
+
+/* Formularios */
+form {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+input[type="text"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+button, input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+table th,
+table td {
+    padding: 0.75rem;
+    text-align: left;
+    border: 1px solid #dee2e6;
+    font-size: 0.9rem;
+}
+
+table th {
+    background-color: #0d6efd;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+
+/* --- PAGINA VER DOCUMENTO --- */
+
+
+.info-documentos {
+
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 10%;
+} 
+
+.info-documentos table th{
+    width: 10%;
+}
+
+
+
+
+
+ /* Estilo para el slider */
+        .slider-container {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            height: 100px; /* Ajusta según tu diseño */
+            bottom: 20px;
+        }
+
+        .slider-container p{
+            font-size: 15px;
+            width: 100%;
+            position: relative;
+            font-weight: 600;
+            height: 5px;
+            padding: 0px;
+            left: 5px;
+            bottom: 5px;
+        }
+
+        .slider-content {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slider-item {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    width: 100em;
+    right: 0px;
+    position: absolute;
+}
+
+footer h6 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #ffc107; /* Cambia este color si usas otro esquema */
+}
+
+footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+footer p, footer ul {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer .bi {
+    margin-right: 0.5rem;
+    color: #f8f9fa;
+}
+
